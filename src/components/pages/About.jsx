@@ -2,13 +2,15 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img src="src/assets/profile.jpg" alt="profile picture" />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      My name is Adam Fong.  I am a developer based in Los Angeles. 
+      After half a decade of experience in banking and 
+      fund management in Hawaii, I had the opportunity to pursue
+       a passion for web development.  
+       I am a lifelong learner who is skilled with a variety of web 
+       technologies, and I always enjoy finding innovative 
+       solutions to problems.
       </p>
     </div>
   );
