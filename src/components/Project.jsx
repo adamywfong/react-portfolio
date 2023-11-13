@@ -5,7 +5,7 @@ function Project({name,image,github,deployed}) {
           <p className="project-links centered">
             <a href={deployed}>{name}</a>
             <a href={github}>
-              <img src='src/assets/github-mark.svg' className="p-logo" alt="GitHub logo" />
+              <img src='/assets/github-mark.svg' className="p-logo" alt="GitHub logo" />
             </a>
           </p>
           <img className="project-image" src={image} />
