@@ -7,37 +7,37 @@ export default function Portfolio() {
       <div className="row">
         <Project 
           name="codeMingle"
-          image="dist/assets/codeMingle.jpeg"
+          image="/assets/codeMingle.jpeg"
           github="https://github.com/DariaPressley/codemingle"
           deployed="https://murmuring-taiga-79602-011f1c7742f6.herokuapp.com/"
         />
         <Project 
           name="singalong"
-          image="dist/assets/singalong.png"
+          image="/assets/singalong.png"
           github="https://github.com/adamywfong/singalong"
           deployed="https://adamywfong.github.io/singalong/"
         />
         <Project 
           name="Tech Talkers"
-          image="dist/assets/tech-talkers.jpeg"
+          image="/assets/tech-talkers.jpeg"
           github="https://github.com/adamywfong/tech-blog"
           deployed="https://tech-talkers-e85792de0744.herokuapp.com/"
         />
         <Project 
           name="Note Taker"
-          image="dist/assets/note-taker.jpeg"
+          image="/assets/note-taker.jpeg"
           github="https://github.com/adamywfong/note-taker"
           deployed="https://fierce-spire-82930-4aa67cc276ab.herokuapp.com/"
         />
         <Project 
           name="Weather Dashboard"
-          image="dist/assets/weather-dashboard.jpeg"
+          image="/assets/weather-dashboard.jpeg"
           github="https://github.com/adamywfong/weather-dashboard"
           deployed="https://adamywfong.github.io/weather-dashboard/"
         />
         <Project 
           name="Code Quiz"
-          image="dist/assets/code-quiz.jpeg"
+          image="/assets/code-quiz.jpeg"
           github="https://github.com/adamywfong/code-quiz"
           deployed="https://adamywfong.github.io/code-quiz/"
         />

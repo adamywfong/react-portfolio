@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <img className="profile-pic" src="dist/assets/profile.jpg" alt="profile picture" />
+      <img className="profile-pic" src="/assets/profile.jpg" alt="profile picture" />
       <p>
       My name is Adam Fong.  I am a developer based in Los Angeles. 
       After half a decade of experience in banking and 
