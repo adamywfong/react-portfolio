@@ -3,16 +3,14 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        <a href="src/assets/aFongResume.docx" download>
+          Download Resume
+        </a>
+        <br /> 
+        Skills:
+        Javascript, Python, HTML, CSS, React, MongoDB, SQL, Express, ApolloApp, Node.js, Object-oriented Programming (OOP),
+        Handlebars, Progressive Web Applications (PWAs)
+
       </p>
     </div>
   );
