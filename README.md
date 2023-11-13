@@ -6,4 +6,4 @@ This is my portfolio, designed using React.  It was made both as a way to practi
 
 Link to site: [https://transcendent-cascaron-a3d23e.netlify.app/](https://transcendent-cascaron-a3d23e.netlify.app/).
 
-![Screenshot of deployed portfolio](./src/assets/page-screenshot.jpeg)
+![Screenshot of deployed portfolio](./public/assets/page-screenshot.jpeg)
