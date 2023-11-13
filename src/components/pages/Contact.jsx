@@ -10,7 +10,6 @@ export default function Contact() {
         <div class="form-group">
           <label for="inputEmail">Email address</label>
           <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" />
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="formControlTextarea">Enter your comment</label>

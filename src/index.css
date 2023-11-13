@@ -5,13 +5,14 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #afcafe;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  background-color: #afcafe;
 }
 
 a {
@@ -23,17 +24,8 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+ul {
+  list-style-type: none;
 }
 
 button {
@@ -55,8 +47,56 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.header {
+  background-color: #440ba7;
+  color: #cdf6ae;
+}
+
 .logo {
-  width: 50px;
+  width: 30px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.profile-pic {
+  width:200px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+    object-fit:cover;
+}
+
+.project-image:hover {
+  opacity: 0.9;
+}
+
+.project-links {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-links a {
+  color: #440ba7;
+}
+
+.p-logo {
+  width: 20px;
 }
 
 @media (prefers-color-scheme: light) {

@@ -4,14 +4,44 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <ul>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-      </ul>
+      <div className="row">
+        <Project 
+          name="codeMingle"
+          image="src/assets/codeMingle.jpeg"
+          github="https://github.com/DariaPressley/codemingle"
+          deployed="https://murmuring-taiga-79602-011f1c7742f6.herokuapp.com/"
+        />
+        <Project 
+          name="singalong"
+          image="src/assets/singalong.png"
+          github="https://github.com/adamywfong/singalong"
+          deployed="https://adamywfong.github.io/singalong/"
+        />
+        <Project 
+          name="Tech Talkers"
+          image="src/assets/tech-talkers.jpeg"
+          github="https://github.com/adamywfong/tech-blog"
+          deployed="https://tech-talkers-e85792de0744.herokuapp.com/"
+        />
+        <Project 
+          name="Note Taker"
+          image="src/assets/note-taker.jpeg"
+          github="https://github.com/adamywfong/note-taker"
+          deployed="https://fierce-spire-82930-4aa67cc276ab.herokuapp.com/"
+        />
+        <Project 
+          name="Weather Dashboard"
+          image="src/assets/weather-dashboard.jpeg"
+          github="https://github.com/adamywfong/weather-dashboard"
+          deployed="https://adamywfong.github.io/weather-dashboard/"
+        />
+        <Project 
+          name="Code Quiz"
+          image="src/assets/code-quiz.jpeg"
+          github="https://github.com/adamywfong/code-quiz"
+          deployed="https://adamywfong.github.io/code-quiz/"
+        />
+      </div>
     </div>
   );
 }
