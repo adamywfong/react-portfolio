@@ -3,7 +3,7 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       <p>
-        <a href="public/assets/aFongResume.docx" download>
+        <a href="dist/assets/aFongResume.docx" download>
           Download Resume
         </a>
         <br /> 
